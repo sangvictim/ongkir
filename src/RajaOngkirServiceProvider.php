@@ -15,7 +15,7 @@ class RajaOngkirServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/config/rajaongkir.php' => config_path('config/rajaongkir.php'),
+            __DIR__ . '/config/ongkir.php' => config_path('config/ongkir.php'),
         ]);
     }
 
